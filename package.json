@@ -5,10 +5,13 @@
   "keywords"      : ["inspector", "debug", "inspect", "print"],
   "author"        : "Alexis Sellier <self@cloudhead.net>",
   "contributors"  : [{ "name": "Charlie Robbins", "email": "charlie@nodejitsu.com" }],
-  "licenses"      : ["MIT"],
+  "licenses"      : [{ "type": "MIT", "url": "https://raw.github.com/cloudhead/eyes.js/master/LICENSE" }],
   "main"          : "./lib/eyes",
   "version"       : "0.1.8",
   "scripts"       : { "test": "node test/*-test.js" },
   "directories"   : { "lib": "./lib", "test": "./test" },
-  "engines"       : { "node": "> 0.1.90" }
+  "engines"       : { "node": "> 0.1.90" },
+  "bugs"          : "https://github.com/cloudhead/eyes.js/issues",
+  "homepage"      : "https://github.com/cloudhead/eyes.js/",
+  "repository"    : { "type" : "git", "url" : "https://github.com/cloudhead/eyes.js/issues" }
 }
